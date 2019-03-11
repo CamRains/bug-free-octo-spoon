@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <style>
+      a {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="logo">Logo</div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section>
+      <button onclick="oddMaker()">Press me</button>
+    </section>
+
+    <section>
+      <h1 class="title">My Toggle</h1>
+      <button onclick="changeStyles()">Click</button>
+    </section>
+    <section>
+      <span id="typed-value"></span>
+      <input type="number" id="name-input" />
+      <button onclick="setTypedName()">submit</button>
+    </section>
+    <script src="./lecture.js"></script>
+  </body>
+</html>
