@@ -1,0 +1,53 @@
+header {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+
+  background: black;
+}
+header > div {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left > * {
+  margin-left: 10px;
+}
+
+.right > * {
+  margin-right: 10px;
+}
+
+.left > input {
+  height: 25px;
+  width: 200px;
+  background-color: rgba(63, 62, 62, 0.536);
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+header img {
+  width: 20px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  border-radius: 50%;
+}
+header ul {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+}
