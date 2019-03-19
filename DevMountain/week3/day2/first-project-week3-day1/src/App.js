@@ -63,6 +63,8 @@ class App extends Component {
     });
     return (
       <div>
+        {/* this is an example of component based architecture*/}
+
         <Header label="this is now my header from prop" />
         <Header label="this is a different header from prop" />
         <Header label="last header" />
